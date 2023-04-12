@@ -4,6 +4,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Thumbnail_maker</title>
+    <link rel="stylesheet" href="/app.css">
 </head>
 
 <body>
@@ -24,12 +25,27 @@
         <div class="input-container">
             <input type="text" class="title-box" placeholder=">제목을 입력하세요.">
             <input type="text" class="title-subtitle" placeholder=">부제목을 입력하세요.">
-            <input type="text" class="title-category" placeholder=">분류를 입력하세요."">
+            <input type="text" class="title-category" placeholder=">분류를 입력하세요.">
     </div>
     <div class=" background container">
-        </div>
-        <div class="thumbnail-component container"></div>
-        <div class="text-style-options container"></div>
+        <span class="background">배경을 정해주세요</span>
+        <button class ="btn btn-gradient">랜덤 그라디언트</button>
+        <button class ="btn btn-color">랜덤 단색</button>
+        <button class ="btn btn-img-url">이미지 URL</button>
+    </div>
+    <div class="thumbnail-component container">
+        <span class="thumbnail-component">썸네일 구성 요소</span>
+        <button class ="btn btn.title.sub-title.category">제목 / 부제목/ 분류</button>
+        <button class ="btn btn.title.category">제목 / 분류</button>
+        <button class ="btn btn.title-only">제목만</button>
+    </div>
+    <div class="text-style-options container">
+        <span class="text-style">텍스트 스타일 변경</span>
+        <button class ="btn btn-text-shadow">텍스트 그림자</button>
+        <button class ="btn btn-text-color-reverse">텍스트 색상 반전</button>
+        <button class ="btn btn-title-small">제목 크기 작게</button>
+    </div>
+    
     </main>
     <footer>
         <div>
